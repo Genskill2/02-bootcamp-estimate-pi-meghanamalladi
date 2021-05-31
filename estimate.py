@@ -19,7 +19,7 @@ class TestWallis(unittest.TestCase):
 	while i<=n:
 	    val = val * (4*i*i)/((4*i*i)-1)
 	    i=+1
-	return val 
+	return (2*val) 
 
 
 class TestMC(unittest.TestCase):
@@ -46,7 +46,7 @@ class TestMC(unittest.TestCase):
 	    if dis<=1:
 		cnt=cnt+1
 	    k=k-1
-        return cnt/n
+        return 4*(cnt/n)
     
 if __name__ == "__main__":
     unittest.main()
